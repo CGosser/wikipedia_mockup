@@ -14,7 +14,7 @@ _A mockup of the wikipedia homepage in bootstrap for practice purposes_
 
 ## Known Bugs
 
-_no known bugs_
+_boot is interfering with floating_
 
 ## Support and contact details
 
@@ -26,6 +26,6 @@ _html css and bootstrap_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+GPL
 
 Copyright (c) 2018 **_Chris Gosser, Michael Harmon_**

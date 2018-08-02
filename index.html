@@ -7,48 +7,68 @@
     <title>wikipedia</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-lg-2">
-          <!-- Side nav bar -->
-          <img src="https://en.wikipedia.org/static/images/project-logos/enwiki.png" alt="Visit the main page">
-          <ul>
-            <li><a href="#">Main page</a></li>
-            <li><a href="#">Contents</a></li>
-            <li><a href="#">Featured content</a></li>
-            <li><a href="#">Current events</a></li>
-            <li><a href="#">Random article</a></li>
-            <li><a href="#">Donate to Wikipedia</a></li>
-            <li><a href="#">Wikipedia store</a></li>
-          <h3> interaction </h3>
-            <li><a href="#">Help</a> </li>
-            <li><a href="#">About Wikipedia</a> </li>
-            <li><a href="#">Community portal</a> </li>
-            <li><a href="#">Recent changes</a> </li>
-            <li><a href="#">contact page </a> </li>
-          <h3> tools </h3>
-            <li><a href="#">What links here</a></li>
-            <li><a href="#">Related Changes</a></li>
-            <li><a href="#">Upload file</a></li>
-            <li><a href="#">Special pages</a></li>
-            <li><a href="#">Page information</a></li>
-            <li><a href="#">Wikidata item</a></li>
-          <h3> Print/export </h3>
-            <li><a href="#">Create a book</a></li>
-            <li><a href="#">Download as PDF</a></li>
-            <li><a href="#">Printable Version</a></li>
-          <h3> In other projects </h3>
-            <li><a href="#">Wikimedia Commons</a></li>
-            <li><a href="#">Mediawiki</a></li>
-            <li><a href="#">Meta-Wiki</a></li>
-            <li><a href="#">Wikispecies</a></li>
-            <li><a href="#">Wikibooks</a></li>
-            <li><a href="#">Wikidata</a></li>
-            <li><a href="#">Wikinews</a></li>
-            <li><a href="#">Wikiquote</a></li>
-            <li><a href="#">Wikiversity</a></li>
-            <li><a href="#">Wiktionary</a></li>
-          <img src="img/languages.png" alt="languages">
+        <div class="column">
+    <!-- Side nav bar -->
+            <img src="https://en.wikipedia.org/static/images/project-logos/enwiki.png" alt="Visit the main page">
+            <ul>
+              <li><a href="#">Main page</a></li>
+              <li><a href="#">Contents</a></li>
+              <li><a href="#">Featured content</a></li>
+              <li><a href="#">Current events</a></li>
+              <li><a href="#">Random article</a></li>
+              <li><a href="#">Donate to Wikipedia</a></li>
+              <li><a href="#">Wikipedia store</a></li>
+            <h3> interaction </h3>
+              <li><a href="#">Help</a> </li>
+              <li><a href="#">About Wikipedia</a> </li>
+              <li><a href="#">Community portal</a> </li>
+              <li><a href="#">Recent changes</a> </li>
+              <li><a href="#">contact page </a> </li>
+            <h3> tools </h3>
+              <li><a href="#">What links here</a></li>
+              <li><a href="#">Related Changes</a></li>
+              <li><a href="#">Upload file</a></li>
+              <li><a href="#">Special pages</a></li>
+              <li><a href="#">Page information</a></li>
+              <li><a href="#">Wikidata item</a></li>
+            <h3> Print/export </h3>
+              <li><a href="#">Create a book</a></li>
+              <li><a href="#">Download as PDF</a></li>
+              <li><a href="#">Printable Version</a></li>
+            <h3> In other projects </h3>
+              <li><a href="#">Wikimedia Commons</a></li>
+              <li><a href="#">Mediawiki</a></li>
+              <li><a href="#">Meta-Wiki</a></li>
+              <li><a href="#">Wikispecies</a></li>
+              <li><a href="#">Wikibooks</a></li>
+              <li><a href="#">Wikidata</a></li>
+              <li><a href="#">Wikinews</a></li>
+              <li><a href="#">Wikiquote</a></li>
+              <li><a href="#">Wikiversity</a></li>
+              <li><a href="#">Wiktionary</a></li>
+            </ul>
+            <img src="img/languages.png" alt="languages">
+          </div>
+        </div>
+        <div class="col-lg-10">
+          <div class="login">
+            Not logged in Talk Contributions Create account Log in
+          </div>
+          <div class="row">
+            <div class="col-lg-4">
+
+          <div class="wikitabs">
+            <ul class="nav nav-tabs">
+  <li role="presentation" class="active"><a href="#">Read</a></li>
+  <li role="presentation"><a href="#">View</a></li>
+  <li role="presentation"><a href="#">Messages</a></li>
+</ul>
+</div>
+</div>
+          </div>
         </div>
         <div class="col-lg-10">
           <!-- this column will contain the bulk of the page -->
@@ -83,7 +103,12 @@
           <div class="row">
             <!-- green and blue columns -->
             <div class="col-lg-7">
-              <h4> From today's featured article </h4>
+              <div class="panel panel-success">
+        <div class="panel-heading">
+          <h2 class="panel-title">From today's featured article</h2>
+        </div>
+        <div class="panel-body">
+
               <img id="Ian_Smith" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Ian_Smith_1950s.jpg/100px-Ian_Smith_1950s.jpg" alt="Ian Smith PM of Rhodesia">
               <div class="paragraph">
               Ian Smith (1919–2007) was Prime Minister of Rhodesia (or Southern Rhodesia; today Zimbabwe) from 1964 to 1979. During the Second World War, he served as a Royal Air Force fighter pilot in the Middle East and Europe, suffering permanent facial and bodily wounds. In 1962 he helped form the all-white, firmly conservative Rhodesian Front, which called for independence without an immediate shift to black majority rule. He led the predominantly white government that unilaterally declared independence from the United Kingdom in 1965, after prolonged dispute. During Smith's premiership, the Bush War pitted the unrecognised administration's forces against communist-backed black nationalist guerrilla groups. His government endured in the face of United Nations economic sanctions with the assistance of South Africa and, until 1974, Portugal. Smith is still venerated by some, while critics describe an unrepentant racist whose policies and actions caused the deaths of thousands and contributed to Zimbabwe's later crises. (Full article...)
@@ -92,6 +117,8 @@
               </div>
               <div class="archive"> Archive By email More featured articles
               </div>
+            </div>
+    </div>
               <h4> Did you know... </h4>
               <div class="thumb">
                 <img id="delta" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Delta_Beta_Tau_Pledge_Class_2018_meditation.jpg/120px-Delta_Beta_Tau_Pledge_Class_2018_meditation.jpg" alt="">

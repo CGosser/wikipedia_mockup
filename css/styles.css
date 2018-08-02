@@ -1,3 +1,21 @@
 body{
   background: #f2f2f2;
 }
+
+column{
+  float: left;
+
+}
+
+login{
+  float: right;
+}
+
+#Ian_Smith{
+  float: left;
+  padding: 5px;
+}
+
+recent, archive{
+  float: right;
+}
